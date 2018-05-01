@@ -5,17 +5,17 @@
 RPGツクールMVのゲーム外で他アプリの実行またはタスクキルをするためのプラグインです。
 
 ## Usage
-絶対パス(フルパス)の場合は、コマンドをfullpassにしてください。
+絶対パス(フルパス)の場合は、プラグインコマンドをfullpassにしてください。
 
 例：fullpass C:/..(割愛)/example/example.exe
 
 相対パス(ゲームプロジェクト内のindex.htmlがあるフォルダが始点になります)
-の場合は、コマンドをrelativepassにしてください。
+の場合は、プラグインコマンドをrelativepassにしてください。
 
 例： relativepass example/example.exe
 
 この場合ではC:/..(割愛)/ゲーム名/example/example.exeとなります。
-アプリをタスクキルしたい場合はコマンドをtaskkillにしてください。
+アプリをタスクキルしたい場合はプラグインコマンドをtaskkillにしてください。
 
 例：taskkill example.exe
 
